@@ -1,0 +1,19 @@
+:root {
+    --cor-principal: #0b1950;
+    --cor-secundaria: #434583;
+    --cor-destaque: #1e2861;
+    --cor-texto: #ede3fb;
+}
+
+body {
+    background-image: url(../images/bg.jpg);
+    background-size: 100%;
+    background-position: left top;
+    background-repeat: repeat-y;
+    color: var(--cor-texto);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
